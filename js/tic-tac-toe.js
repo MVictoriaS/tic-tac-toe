@@ -1,7 +1,7 @@
 
 const tic_tac_toe = {
 
-    // ATTRIBUTES
+    
     board: ['','','','','','','','',''],
     symbols: {
                 options: ['O','X'],
@@ -23,7 +23,7 @@ const tic_tac_toe = {
                         [2,4,6]
                     ],
 
-    // FUNCTIONS
+    
     init(container) {
         this.container_element = container;
     },
